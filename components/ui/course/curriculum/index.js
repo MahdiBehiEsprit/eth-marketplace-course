@@ -66,7 +66,7 @@ export default function Curriculum({locked, courseState, isLoading}) {
                               { courseState === "deactivated" &&
                                 <Link href="/marketplace">
                                   <a
-                                    className="text-indigo-600 hover:text-indigo-900">
+                                    className="text-orange-600 hover:text-orange-900">
                                     Get Access
                                   </a>
                                 </Link>
@@ -82,7 +82,7 @@ export default function Curriculum({locked, courseState, isLoading}) {
                             </> :
                             <Link href="/watch">
                               <a
-                                className="text-indigo-600 hover:text-indigo-900">
+                                className="text-orange-600 hover:text-orange-900">
                                 Watch
                               </a>
                             </Link>

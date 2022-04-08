@@ -2,7 +2,7 @@
 import Image from "next/image"
 
 const STATE_COLORS = {
-  purchased: "indigo",
+  purchased: "orange",
   activated: "green",
   deactivated: "red"
 }

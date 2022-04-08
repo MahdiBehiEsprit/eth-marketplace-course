@@ -22,7 +22,7 @@ export default function Card({course, disabled, Footer, state}) {
         <div className="p-8 pb-4 flex-2">
           <div className="flex items-center">
             <div
-              className="uppercase mr-2 tracking-wide text-sm text-indigo-500 font-semibold">
+              className="uppercase mr-2 tracking-wide text-sm text-orange-500 font-semibold">
               {course.type}
             </div>
             <div>
@@ -51,7 +51,7 @@ export default function Card({course, disabled, Footer, state}) {
             </div>
           </div>
 
-          <Link href={`/courses/${course.slug}`}>
+          <Link href={`/courses-marketplace/courses/${course.slug}`}>
             <a
               className="h-12 block mt-1 text-sm sm:text-base leading-tight font-medium text-black hover:underline">
               {course.title}
