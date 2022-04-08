@@ -51,7 +51,7 @@ export default function Card({course, disabled, Footer, state}) {
             </div>
           </div>
 
-          <Link href={`/courses-marketplace/courses/${course.slug}`}>
+          <Link href={`/courses/${course.slug}`}>
             <a
               className="h-12 block mt-1 text-sm sm:text-base leading-tight font-medium text-black hover:underline">
               {course.title}

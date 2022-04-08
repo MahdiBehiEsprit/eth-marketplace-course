@@ -5,13 +5,13 @@ import { Breadcrumbs } from "@components/ui/common";
 import { EthRates, WalletBar } from "@components/ui/web3";
 
 const LINKS = [{
-  href: "/courses-marketplace/marketplace",
+  href: "/marketplace",
   value: "Buy"
 }, {
-  href: "/courses-marketplace/marketplace/courses/owned",
+  href: "/marketplace/courses/owned",
   value: "My Courses"
 }, {
-  href: "/courses-marketplace/marketplace/courses/managed",
+  href: "/marketplace/courses/managed",
   value: "Manage Courses",
   requireAdmin: true
 }]

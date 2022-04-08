@@ -23,13 +23,13 @@ export default function Navbar() {
                   Home
                 </a>
               </ActiveLink>
-              <ActiveLink href="/courses-marketplace/marketplace" >
+              <ActiveLink href="/marketplace" >
                 <a
                   className="font-medium mr-8 text-gray-500 hover:text-gray-900">
                   Marketplace
                 </a>
               </ActiveLink>
-              <ActiveLink href="/courses-marketplace/blogs" >
+              <ActiveLink href="/blogs" >
                 <a
                   className="font-medium mr-8 text-gray-500 hover:text-gray-900">
                   Blogs
@@ -37,7 +37,7 @@ export default function Navbar() {
               </ActiveLink>
             </div>
             <div className="text-center">
-              <ActiveLink href="/courses-marketplace/wishlist" >
+              <ActiveLink href="/wishlist" >
                 <a
                   className="font-medium sm:mr-8 mr-1 text-gray-500 hover:text-gray-900">
                   Wishlist
@@ -70,7 +70,7 @@ export default function Navbar() {
         </nav>
       </div>
       { account.data &&
-        !pathname.includes("/courses-marketplace/marketplace") &&
+        !pathname.includes("/marketplace") &&
         <div className="flex justify-end pt-1 sm:px-6 lg:px-8">
           <div className="text-white bg-orange-600 rounded-md p-2">
             {account.data}
